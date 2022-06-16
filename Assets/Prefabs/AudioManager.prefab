@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4401912700625294671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4401912700625294669}
+  - component: {fileID: 4401912700625294670}
+  - component: {fileID: 4401912700625294668}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4401912700625294669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4401912700625294671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.6817493, y: 1.2788727, z: 875.7622}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4401912700625294670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4401912700625294671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872c734ef695984408e4bc1aeca327f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: winLevel
+    clip: {fileID: 8300000, guid: a2c2898f4de54be4f81c864764766d53, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+  - name: fallDeath
+    clip: {fileID: 8300000, guid: 2065a2b7e8f95e248882322cdcbe941b, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: jumpWhite
+    clip: {fileID: 8300000, guid: 0dbba87908fd2ba4aa39666b38f85db2, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: jumpBlack
+    clip: {fileID: 8300000, guid: 99692e8009a61734ebdd9324229c0fea, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  - name: keyFound
+    clip: {fileID: 8300000, guid: 07124dba3d976104a9c57a1425d638f4, type: 3}
+    volume: 0.6
+    pitch: 1
+    source: {fileID: 0}
+  - name: mobDeath
+    clip: {fileID: 8300000, guid: 24cd65468a0b84e448663af1b56edfe9, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 8300000, guid: 4fcc58975bac15542bc4c4deb8de68ae, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+--- !u!114 &4401912700625294668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4401912700625294671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f91c3821e793a5b46b0f1a890a8c6410, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

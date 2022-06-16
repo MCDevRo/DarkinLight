@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Customizable Skybox.meta
+    - Assets/Customizable Skybox/Stylized Sky.meta
+    - Assets/Customizable Skybox/Stylized Sky/Materials.meta
+    - Assets/Customizable Skybox/Stylized Sky/Materials/Night3.mat
+    - Assets/Customizable Skybox/Stylized Sky/Materials/Night3.mat.meta
+    - Assets/Customizable Skybox/Stylized Sky/Materials/Sunset4.mat
+    - Assets/Customizable Skybox/Stylized Sky/Materials/Sunset4.mat.meta
+    - Assets/Customizable Skybox/Stylized Sky/Materials/Sunset5.mat
+    - Assets/Customizable Skybox/Stylized Sky/Materials/Sunset5.mat.meta
+    - Assets/Customizable Skybox/Stylized Sky/Shaders.meta
+    - Assets/Customizable Skybox/Stylized Sky/Shaders/Stylized Sky.shader
+    - Assets/Customizable Skybox/Stylized Sky/Shaders/Stylized Sky.shader.meta
+    - Assets/Free Asset - 2D Handcrafted Art.meta
+    - Assets/Free Asset - 2D Handcrafted Art/Scripts.meta
+    - Assets/Free Asset - 2D Handcrafted Art/Scripts/CamerController.cs
+    - Assets/Free Asset - 2D Handcrafted Art/Scripts/CamerController.cs.meta
+    - Assets/JMO Assets/Cartoon FX Easy Editor.meta
+    - Assets/JMO Assets/Cartoon FX Easy Editor/Editor.meta
+    - Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs
+    - Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs.meta
+    - Assets/JMO Assets/Editor.meta
+    - Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll
+    - Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll.meta
+    - Assets/Scenes/Level1.unity
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
